@@ -19,7 +19,8 @@
     <!-- Navbar section -->
     <nav class="navbar navbar-dark bg-dark sticky-top">
         <div class="container p-2">
-            <a class="navbar-brand fw-bold fs-3" href="#"><img src="./img/mlogo.png" style="width:70px ;" alt="">&nbsp; MiNT CAFE</a>
+            <a class="navbar-brand fw-bold fs-3" href="#"><img src="./img/mlogo.png" style="width:70px ;" alt="">&nbsp;
+                MiNT CAFE</a>
 
             <button class="navbar-toggler navbtn" type="button" data-bs-toggle="offcanvas"
                 data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
@@ -65,13 +66,13 @@
     <!-- Banner section -->
     <p class="d-inline">
 
-    <button class="btn-warning  offer-btn  p-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample"
-        aria-expanded="false" aria-controls="collapseExample">
-        <i class="fa-solid fa-list"></i> <span class="off">&nbsp;Offers</span>
-    </button>
+        <button class="btn-warning  offer-btn  p-3" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+            <i class="fa-solid fa-user"></i> <span class="off">&nbsp;Vigil Thomas</span>
+        </button>
     <form class=" d-inline-flex search-option bg-last p-3" role="search">
-        <input class="srinput p-2" type="search" placeholder="Search " aria-label="Search">
-        <button class="srbtn p-3 d-flex justify-content-center" type="submit">
+        <input class="srinput" type="search" placeholder="Search " aria-label="Search">
+        <button class="srbtn p-3 d-flex justify-content-center border border-start border-5" type="submit">
             <i class="fa-solid fa-magnifying-glass"></i>
         </button>
     </form>
@@ -79,10 +80,10 @@
 
     <div class="collapse " id="collapseExample" style="width: 100%;">
         <div class="row">
-            
+
             <div class="col-lg-6 col-md-12 col-sm-12 p-2 mt-2 d-flex justify-content-center">
                 <a href="">
-                    <video class="poster-item" autoplay loop >
+                    <video class="poster-item" autoplay loop>
                         <source src="./img/b2v.mp4" type="video/mp4">
                     </video></a>
             </div>
@@ -90,37 +91,48 @@
         </div>
     </div>
     <!-- Banner section -->
-<div id="carouselExampleIndicators" class="carousel slide">
-    <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-            aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-            aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-            aria-label="Slide 3"></button>
+
+    <div class="row" style="width: 100%;">
+        <div class=" col">
+            <div id="carouselExampleAutoplaying" class="carousel slide m-3" data-bs-ride="carousel"
+                style="width: 30%;height: fit-content;">
+                <div class="carousel-inner border border-dark border-5">
+                    <div class="carousel-item active " data-bs-interval="5000">
+                        <video class="poster-item " autoplay loop>
+                            <source src="./img/side2.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <video class="poster-item" autoplay loop>
+                            <source src="./img/side4.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <video class="poster-item" autoplay loop>
+                            <source src="./img/side1.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <video class="poster-item " autoplay loop>
+                            <source src="./img/side3.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="col"></div>
     </div>
-    <div class="container carousel-inner" style="width: fit-content;height: 300px;">
-        <div class="carousel-item active">
-            <img src="./img/B1.png" class="" alt="...">
-        </div>
-        <div class="carousel-item">
-            <img src="./img/B2.png" class="" alt="...">
-        </div>
-        <div class="carousel-item">
-            <img src="./img/B1.png" class="" alt="...">
-        </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
-</div>
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"

@@ -24,13 +24,12 @@
 }
 .srbtn {
   width: 30%;
-  border: none;
   border-radius: 0 80px 80px 0;
   background-color: #fff;
 }
 .srbtn:hover {
   color: #fff;
-  background-color: #23232360;
+  background-color: #ffff0067;
 }
 
 .srinput:focus {
