@@ -1,21 +1,28 @@
-
-@media (max-width:600px) {
-    .srinput,.srbtn{
-        display: none;}
+*{
+  overflow-x: hidden;
 }
 
-.srsection {
-  display: flex;
+.navbtn{
+  margin-right: 3%;
 }
 
-.srinput {
+.navitems {
+  color: aliceblue;
+  margin-right: 10px;
+}
+.srinput{
   width: 80%;
+  padding: 10px;
+  border: none;
+}
+.srinput:focus{
+  outline: none;
 }
 .srbtn {
-  background-color: #00adb5;
+  background-color: #f8f8f8ec;
+  width: 20%;
   border: none;
-  border-radius: 10px;
-  padding: 5px 20px 5px;
+  padding: 20px;
 }
 
 .btn-last {
@@ -24,15 +31,23 @@
   background-color: #00adb5;
   border: none;
 }
+.bg-last {
+  background-color: #00adb5;
+  border: none;
+}
+.bg-last2 {
+  background-color: #00acb563;
+  border: none;
+}
+.offer-btn{
+  width: 100%;
+}
 .btn-last:hover {
   background-color: #047c83;
 }
 
-.navitems {
-  color: aliceblue;
-  margin-right: 10px;
-}
+
 .poster-item {
-    width:100% ;
-height: 600px;  
+  width:100% ;
+  height: 500px;  
 }

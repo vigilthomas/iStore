@@ -19,11 +19,8 @@
     <nav class="navbar navbar-dark bg-dark sticky-top">
         <div class="container p-2">
             <a class="navbar-brand fw-bold fs-3" href="#">MiNT CAFE</a>
-            <form class="d-flex " role="search">
-                <input class="form-control srinput me-2" type="search" placeholder="Search here" aria-label="Search">
-                <button class="srbtn" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-            </form>
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+
+            <button class="navbar-toggler navbtn" type="button" data-bs-toggle="offcanvas"
                 data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -32,7 +29,7 @@
                 aria-labelledby="offcanvasDarkNavbarLabel">
                 <div class="offcanvas-header">
                     <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark</h5>
-                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                    <button type="button" class="btn-close btn-close-white navbtn2" data-bs-dismiss="offcanvas"
                         aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
@@ -65,30 +62,51 @@
     </nav>
     <!-- Navbar section -->
     <!-- Banner section -->
-    <p class="d-inline-flex">
+<p class="d-inline-flex gap-1">
 
-        <button class="btn-last" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample"
-            aria-expanded="false" aria-controls="collapseExample">
-            <i class="fa-solid fa-list"></i> Offers
+    <button class="btn-last offer-btn p-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample"
+        aria-expanded="false" aria-controls="collapseExample">
+        <i class="fa-solid fa-list "></i> Offers
+    </button>
+    <form class=" d-inline-flex search-option" role="search">
+        <input class="srinput" type="search" style="width: 80%;" placeholder="Search here" aria-label="Search">
+        <button class="srbtn" type="submit">
+            <i class="fa-solid fa-magnifying-glass"></i>
         </button>
+    </form>
+</p>
+
+    <!-- -------------------------------- -->
+    <p class="d-inline border-0 ">
+    <div class="row bg-last">
+        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+            
+        </div>
+        <div class="col-lg-8 col-md-6 col-sm-6 col-12" style="width: 100%;">
+            
+        </div>
+    </div>
     </p>
+
     <div class="collapse " id="collapseExample" style="width: 100%;">
         <div class="row">
             <div class="col-lg-4 col-md-6 col-sm-6 p-2 mt-2 d-flex justify-content-center">
                 <a href="">
-                    <img class="poster-item " src="./img/B1.png" alt="">
-                </a>
+                    <video class="poster-item" loop autoplay>
+                        <source src="./img/b2v.mp4" type="video/mp4">
+                    </video></a> </a>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6 p-2 mt-2 d-flex justify-content-center">
                 <a href="">
                     <video class="poster-item" loop autoplay>
                         <source src="./img/b2v.mp4" type="video/mp4">
-                    </video>
+                    </video></a>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6 p-2 mt-2 d-flex justify-content-center">
                 <a href="">
-                    <img class="poster-item " src="./img/B1.png" alt="">
-                </a>
+                    <video class="poster-item" loop autoplay>
+                        <source src="./img/b2v.mp4" type="video/mp4">
+                    </video></a> </a>
             </div>
         </div>
     </div>
