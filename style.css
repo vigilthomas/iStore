@@ -1,0 +1,38 @@
+
+@media (max-width:600px) {
+    .srinput,.srbtn{
+        display: none;}
+}
+
+.srsection {
+  display: flex;
+}
+
+.srinput {
+  width: 80%;
+}
+.srbtn {
+  background-color: #00adb5;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 20px 5px;
+}
+
+.btn-last {
+  padding: 20px;
+  color: white;
+  background-color: #00adb5;
+  border: none;
+}
+.btn-last:hover {
+  background-color: #047c83;
+}
+
+.navitems {
+  color: aliceblue;
+  margin-right: 10px;
+}
+.poster-item {
+    width:100% ;
+height: 600px;  
+}
