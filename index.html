@@ -10,15 +10,16 @@
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./img/mlogo.png">
     <title>Mint CAfe</title>
 </head>
 
-<body>
+<body class="bg-warning">
 
     <!-- Navbar section -->
     <nav class="navbar navbar-dark bg-dark sticky-top">
         <div class="container p-2">
-            <a class="navbar-brand fw-bold fs-3" href="#">MiNT CAFE</a>
+            <a class="navbar-brand fw-bold fs-3" href="#"><img src="./img/mlogo.png" style="width:70px ;" alt="">&nbsp; MiNT CAFE</a>
 
             <button class="navbar-toggler navbtn" type="button" data-bs-toggle="offcanvas"
                 data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
@@ -62,52 +63,31 @@
     </nav>
     <!-- Navbar section -->
     <!-- Banner section -->
-<p class="d-inline-flex gap-1">
+    <p class="d-inline">
 
-    <button class="btn-last offer-btn p-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample"
+    <button class="btn-warning  offer-btn  p-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample"
         aria-expanded="false" aria-controls="collapseExample">
-        <i class="fa-solid fa-list "></i> Offers
+        <i class="fa-solid fa-list"></i> <span class="off">&nbsp;Offers</span>
     </button>
-    <form class=" d-inline-flex search-option" role="search">
-        <input class="srinput" type="search" style="width: 80%;" placeholder="Search here" aria-label="Search">
-        <button class="srbtn" type="submit">
+    
+    <form class=" d-inline-flex search-option bg-last p-3" role="search">
+        <input class="srinput p-2" type="search" placeholder="Search " aria-label="Search">
+        <button class="srbtn p-3 d-flex justify-content-center" type="submit">
             <i class="fa-solid fa-magnifying-glass"></i>
         </button>
     </form>
-</p>
-
-    <!-- -------------------------------- -->
-    <p class="d-inline border-0 ">
-    <div class="row bg-last">
-        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-            
-        </div>
-        <div class="col-lg-8 col-md-6 col-sm-6 col-12" style="width: 100%;">
-            
-        </div>
-    </div>
     </p>
 
     <div class="collapse " id="collapseExample" style="width: 100%;">
         <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-6 p-2 mt-2 d-flex justify-content-center">
+            
+            <div class="col-lg-6 col-md-12 col-sm-12 p-2 mt-2 d-flex justify-content-center">
                 <a href="">
-                    <video class="poster-item" loop autoplay>
-                        <source src="./img/b2v.mp4" type="video/mp4">
-                    </video></a> </a>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 p-2 mt-2 d-flex justify-content-center">
-                <a href="">
-                    <video class="poster-item" loop autoplay>
+                    <video class="poster-item" autoplay loop >
                         <source src="./img/b2v.mp4" type="video/mp4">
                     </video></a>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 p-2 mt-2 d-flex justify-content-center">
-                <a href="">
-                    <video class="poster-item" loop autoplay>
-                        <source src="./img/b2v.mp4" type="video/mp4">
-                    </video></a> </a>
-            </div>
+
         </div>
     </div>
     <!-- Banner section -->
