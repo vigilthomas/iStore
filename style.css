@@ -68,6 +68,8 @@
 
 .poster-item {
   border: none;
-  width: 100%;
-  height: 78vh;
+  width: 70%;
+  height: fit-content;
+  margin-left: auto;
+  margin-right: auto;
 }

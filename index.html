@@ -68,7 +68,7 @@
 
         <button class="btn-warning  offer-btn  p-3" type="button" data-bs-toggle="collapse"
             data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-            <i class="fa-solid fa-user"></i> <span class="off">&nbsp;Vigil Thomas</span>
+            <i class="fa-solid fa-percent fa-beat"><span class="fw-bold fs-5 off"></span>&nbsp;Offers</i>
         </button>
     <form class=" d-inline-flex search-option bg-last p-3" role="search">
         <input class="srinput" type="search" placeholder="Search " aria-label="Search">
@@ -77,15 +77,20 @@
         </button>
     </form>
     </p>
-
-    <div class="collapse " id="collapseExample" style="width: 100%;">
-        <div class="row">
-
-            <div class="col-lg-12 col-md-12 col-sm-12 p-2 mt-2 d-flex justify-content-center">
-                <a href="">
-                    <img src="./img/B1.png" alt="" style="width: 100%; height: fit-content;"></a>
+    <div class="collapse " id="collapseExample">
+        <div class="row" style="background-color: rgba(0, 0, 0, 0.34);width:30%;">
+            <div class=" col-lg-12 col-md-12 col-sm-12">
+                <div id="carouselExampleAutoplaying " class="carousel slide off-display" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="3000">
+                            <img class="poster-item" src="./img/side2.gif" alt="">
+                        </div>
+                        <div class="carousel-item " data-bs-interval="3000">
+                            <img class="poster-item" src="./img/side3.gif" alt="">
+                        </div>
+                    </div>
+                </div>
             </div>
-
         </div>
     </div>
     <!-- Banner section -->
@@ -93,7 +98,6 @@
     <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <div class="card w-100" style="height: 78vh;">
-                <img src="./img/chicken1.jpeg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
@@ -103,41 +107,8 @@
                 </div>
             </div>
         </div>
-        <div class=" col-lg-6 col-md-6 col-sm-12 col-xs-12" >
-            <div id="carouselExampleAutoplaying " class="carousel slide off-display" data-bs-ride="carousel">
-                <div class="carousel-inner"style="height: 78vh;">
-                    <div class="carousel-item active " data-bs-interval="4000">
-                        <video class="poster-item " autoplay loop>
-                            <source src="./img/side2.mp4" type="video/mp4">
-                        </video>
-                    </div>
-                    <div class="carousel-item" data-bs-interval="4000">
-                        <video class="poster-item" autoplay loop>
-                            <source src="./img/side4.mp4" type="video/mp4">
-                        </video>
-                    </div>
-                    <div class="carousel-item" data-bs-interval="4000">
-                        <video class="poster-item" autoplay loop>
-                            <source src="./img/side1.mp4" type="video/mp4">
-                        </video>
-                    </div>
-                    <div class="carousel-item" data-bs-interval="4000">
-                        <video class="poster-item" autoplay loop>
-                            <source src="./img/side3.mp4" type="video/mp4">
-                        </video>
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
+        <div class=" col-lg-6 col-md-6 col-sm-12 col-xs-12">
+
         </div>
     </div>
 
