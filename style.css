@@ -28,7 +28,7 @@
 }
 .srbtn:hover {
   color: #fff;
-  background-color: #ffff0067;
+  background-color: #ffffff61;
 }
 
 .srinput:focus {
@@ -36,7 +36,6 @@
 }
 
 .btn-warning {
-  background-color: #ffc107;
   border: none;
 }
 
@@ -48,6 +47,7 @@
 .offer-btn {
   color: #FFF;
   width: 30%;
+  border: none;
   border-radius: 0 100px 100px 0;
   background-color: #dea700;
 
@@ -55,21 +55,18 @@
 .offer-btn:hover {
   background-color: #23232360;
 }
-.off-display{
-    width: 100%;
-    height: fit-content;
-  }
+
 @media (max-width:800px) {
   .off-display{
     width: 100%;
-    direction: rtl;
   }
 }
 
 .poster-item {
   border: none;
-  width: 70%;
+  width: 100%;
   height: fit-content;
+  object-fit: fit;
   margin-left: auto;
   margin-right: auto;
 }
